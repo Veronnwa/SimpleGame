@@ -11,17 +11,17 @@ import Project from "./NewProject/Project";
   return(
     //<div>
      //<GitHub />
-    <Router> 
+     <Router> 
     <HeaderNav /> 
      <Switch>
-     <Route path='/' exact component={DommyHome} /> 
-     <Route path='/landingpage' exact component={LandingPage} />
+    <Route path='/' exact component={DommyHome} /> 
+    <Route path='/landingpage' exact component={LandingPage} /> 
      <Route path='/about' exact component={DommyAbout} />
      <Route path='/gamescreen' exact component={GameScreen} />
      <Route exact path="/project" component={Project} /> 
      <Route exact path="/github" component={GitHub} /> 
         
-      </Switch> 
+    </Switch> 
      </Router>
     //</div>
   );
